@@ -1,0 +1,9 @@
+@import "tailwindcss";
+@config "./tailwind.config.js";
+
+@layer base {
+  body {
+    @apply bg-gradient-to-br from-yellow-100 to-red-100 min-h-screen;
+  }
+}
+
